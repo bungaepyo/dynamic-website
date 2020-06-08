@@ -1,0 +1,204 @@
+body {
+    background-color:#ddffff;
+    font-family: Impact,fantasy;
+    margin: 0;
+}
+
+header{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+header h1{
+    text-align: center;
+    color: #fa6ea8;
+    font-size: 50px ;
+    margin:0;
+    text-shadow: 4px 4px 4px black;
+}
+
+.divider {
+	width: 100%;
+	border-bottom: 2px dashed #D3D3D3;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	clear: both;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 82px;
+    background-color: #363636;
+}
+
+footer ul li {
+    color: white;
+    display: inline-block;
+}
+
+footer ul li em {
+    font-style: normal;
+    color: #fa6ea8;
+}
+
+footer ul li a {
+    color: white;
+}
+
+
+h2 {
+    color: #fa6ea8;
+    margin:10px;
+    padding:0px;
+    text-align: center;
+    border-color: black;
+}
+
+
+p, ul, li{
+    margin:10px;
+    padding:0px;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border-top: 7px solid #363636;
+    border-bottom: 7px solid #363636;
+    border-left: 7px solid #363636;
+    border-right: 7px solid #363636;
+    background-color: white;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li{
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    padding:0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a:hover{
+    color: #fa6ea8;
+}
+
+nav a{
+    color:black;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+blockquote {
+    display: block;
+    width: 550px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius:40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #363636;
+}
+
+blockquote h2{
+    text-align: left;
+}
+
+.hidden{
+    display: none;
+}
+
+.feedback {
+    color: red;
+}
+
+em{
+    text-decoration: underline;
+}
+
+#search_submit{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#add_submit, #return_button_1, #return_button_2{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#calories{
+    display: inline-block;
+}
+
+.gallery_images{
+    display: inline-block;
+    padding: 2%;
+    }
+
+img{
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #fa6ea8;
+}
+
+.tag_buttons{
+    list-style: none;
+    float: left;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    padding:2px;
+}
+
+.detail_image{
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.image_details{
+    float: right;
+    margin-right: 1%;
+}
+
+#delete_image{
+    border-radius: 7px;
+}
+
+#return_button{
+    border-radius: 7px;
+}
+
+#upload_submit{
+    border-radius: 7px;
+}
+
+#list{
+    list-style: none;
+}
